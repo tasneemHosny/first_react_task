@@ -9,11 +9,11 @@ import Layout from './Component/layout/layout';
 const router = createBrowserRouter(
   [
     {
-      path: '/',
+      path: '/RoutingTask_react/',
       element: <Layout />,
       children: [
         { path: 'start_framework', element: <StartFramework /> },
-        { path: '/', element: <StartFramework /> },
+        { path: '/RoutingTask_react/', element: <StartFramework /> },
         { path: 'about', element: <About /> },
         { path: 'portfolio', element: <Portfolio /> },
         { path: 'contact', element: <Contact /> },
